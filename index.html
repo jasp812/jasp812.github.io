@@ -1,15 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta charset="UTF-8">
-<title>Page Title</title>
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="stylesheet" href="">
-<style>
-</style>
-<script src=""></script>
-<!--- Code above this line will not be displayed on the browser --> 
-<body>
-<p> Hello world! 
-	<br>My name is Jasper</p>
-</body>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <head>
+        <title>Jasper's Homepage</title>
+
+        <link rel="stylesheet" href="styles/general.css">
+    </head>
+    <body>
+        
+        <nav class="navbar">
+            <!-- LOGO -->
+            <div class="logo">Jasper Bo</div>
+
+            <!-- NAVIGATION MENU -->
+            <ul class="nav-links">
+            
+                <!-- NAVIGATION MENUS -->
+                <div class="menu">            
+                    <li><a href="/index.html">About Me</a></li>            
+                    <li><a href="/education/education.html">Education/Career</a></li>            
+                    <li class="hobbies">            
+                        <a href="/hobbies/hobbies.html">Hobbies</a>            
+                        <!-- DROPDOWN MENU -->            
+                        <ul class="dropdown">            
+                            <li><a href="/">Tennis </a></li>            
+                            <li><a href="/">Gaming</a></li>            
+                        </ul>            
+                    </li>            
+                    <li><a href="/animeRanking/animeRanking.html">Top 5 Anime</a></li>
+            
+                </div>
+            
+            </ul>
+            
+        </nav>
+
+        <!-- ABOUT ME -->
+        <header>
+            <h1>About Me</h1>
+        </header>
+
+        <div class="outer-content-grid">
+
+            <div class="left-section">
+
+                
+                    <div class="my-img-caption">
+                        <img src="images/me.jpeg" alt="Picture of me" style="border-radius: 100px;">
+                        <p style="font-size: 30px; font-family:Georgia, 'Times New Roman', Times, serif; padding-left: 30px;">This is me!</p>
+                    </div>
+
+                    <p style="background-color: #f6aa96; border-radius: 30px; padding: 40px;">Hey! My name's Jasper and this is my personal website! I'm a current sophomore at UW-Madison and I'm looking forward to sharing about myself!</p>
+                
+            </div>
+
+            <div class="right-section" style="background-color: #c23b32;">
+                <h2>Socials</h2>
+                <p class="social-dsc">If you want to get to know me more or just chat with me, feel free to add my socials!</p>
+                
+                <div class="social-block">
+                    <img class="soc-logo" src="images/Instagram_logo_2016.svg.webp" alt="Instagram logo">
+                    jbo2018
+                </div>
+
+                <div class="social-block">
+                    <img class="soc-logo" style="height: 60px; width: 60px;"src="images/Snapchat-Logo.wine.svg" alt="Snap logo">
+                    jasp812
+                </div>
+
+            </div>
+        </div>
+        
+
+
+        
+    </body>
 </html>
